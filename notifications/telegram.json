@@ -1,0 +1,18 @@
+{
+  "base": {
+    "project": "demoqa project",
+    "environment": "some env",
+    "comment": "notification telegram_bot",
+    "reportLink": "",
+    "language": "en",
+    "allureFolder": "build/allure-report/",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "5555678874:AAHkCInJojh-P2Wpwj5mFMDkjLbDvhPgjOE",
+    "chat": "-1001628548722",
+    "replyTo": ""
+  }
+}
+
+

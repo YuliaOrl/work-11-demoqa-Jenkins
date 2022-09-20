@@ -1,0 +1,27 @@
+5555678874:AAHkCInJojh-P2Wpwj5mFMDkjLbDvhPgjOE
+id:-1001628548722
+
+https://api.telegram.org/bot5555678874:AAHkCInJojh-P2Wpwj5mFMDkjLbDvhPgjOE/getUpdates
+
+chrome://extensions/?id=chklaanhfefbnpoihckbnefhakgolnmc
+JSONVue
+
+curl -X POST \
+     -H 'Content-Type: application/json' \
+     -d '{"chat_id": "-1001628548722", "text": "This is a test from qa.guru", "disable_notification": true}' \
+     https://api.telegram.org/bot5555678874:AAHkCInJojh-P2Wpwj5mFMDkjLbDvhPgjOE/sendMessage
+
+curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "-1001628548722", "text": "This is a test from qa.guru", "disable_notification": true}' https://api.telegram.org/bot5555678874:AAHkCInJojh-P2Wpwj5mFMDkjLbDvhPgjOE/sendMessage
+
+
+// Из Postman
+
+curl --location --request POST 'https://api.telegram.org/bot5555678874:AAHkCInJojh-P2Wpwj5mFMDkjLbDvhPgjOE/sendMessage' \
+--header 'Content-Type: application/json' \
+--data-raw '{"chat_id": "-1001628548722", "text": "This is a test from qa.guru from Postman", "disable_notification": true}'
+
+java \
+"-DconfigFile=${PATH_TO_FILE}" \
+-jar allure-notifications-4.1.jar
+
+java "-DconfigFile=notifications/telegram.json" -jar notifications/allure-notifications-4.2.1.jar
